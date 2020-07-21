@@ -25,11 +25,11 @@ This repository is modified from [KPConv](https://github.com/HuguesTHOMAS/KPConv
 
 S3DIS dataset can be downloaded <a href="https://goo.gl/forms/4SoGp4KtH1jfRqEj2">here (4.8 GB)</a>. Download the file named `Stanford3dDataset_v1.2.zip`, uncompress the folder and move it to `Data/S3DIS`. 
 
-We provide processed demo dataset for experiments on S3DIS fold-5. The demo dataset can be downloaded <a href="https://drive.google.com/file/d/1Zi8rdgFDWGtlHvaJ9icr6zdi0L4UV02X/view?usp=sharing">here (903 MB)</a>. Uncompress the folder and move it to 'Data/S3DIS'.
+We provide processed demo dataset for experiments on S3DIS fold-5. The demo dataset can be downloaded <a href="https://drive.google.com/file/d/1Zi8rdgFDWGtlHvaJ9icr6zdi0L4UV02X/view?usp=sharing">here (903 MB)</a>. Uncompress the folder and move it to `Data/S3DIS`.
 
 #### Scannet
 
-Scannet dataset can be find <a href="http://www.scan-net.org/">here </a>. Follow the instructions and move downloaded files to 'Data/Scannet'
+Scannet dataset can be find <a href="http://www.scan-net.org/">here </a>. Follow the instructions and move downloaded files to `Data/Scannet`.
 
 ### Training
 For S3DIS dataset:
