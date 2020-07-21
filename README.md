@@ -56,6 +56,11 @@ For semantic edge detection task:
     python test_model.py --task SED
 
 
+### Pretrained models
+
+Pretrained models can be downloaded <a href="https://drive.google.com/file/d/14YJxEJ8Rg6_jjE8l5iYFF9wJTK2XxCc5/view?usp=sharing">here (119 MB)</a>. Uncompress the files and move it to `results/`.
+
+
 ## Acknowledgment
 
 Our code is modified from [KPConv](https://github.com/HuguesTHOMAS/KPConv/).
