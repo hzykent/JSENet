@@ -29,7 +29,7 @@ We provide processed demo dataset for experiments on S3DIS fold-5. The demo data
 
 #### Scannet
 
-Scannet dataset can be find <a href="http://www.scan-net.org/">here </a>. Follow the instructions and move downloaded files to `Data/Scannet`.
+Scannet dataset can be find <a href="http://www.scan-net.org/">here</a>. Follow the instructions and move downloaded files to `Data/Scannet`.
 
 ### Training
 For S3DIS dataset:
