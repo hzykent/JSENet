@@ -32,10 +32,16 @@ We provide processed demo dataset for experiments on S3DIS fold-5. The demo data
 Scannet dataset can be find <a href="http://www.scan-net.org/">here </a>. Follow the instructions and move downloaded files to 'Data/Scannet'
 
 ### Training
-
+For S3DIS dataset:
+    
     python training_S3DIS.py
-
+    
+    
+For Scannet dataset:
+    
     python training_Scannet.py
+
+If you are not using the processed demo dataset, the first run will take some time to process the raw data. The process can be easily accelerated using parallel computing methods like Pthreads.
 
 ### Testing
 
@@ -43,11 +49,11 @@ In `test_model.py`, you will find detailed comments explaining how to choose whi
 
 For semantic segmentation task:
 
-        python test_model.py --task SS
+    python test_model.py --task SS
 
 For semantic edge detection task:
 
-        python test_model.py --task SED
+    python test_model.py --task SED
 
 
 ## Acknowledgment
