@@ -1,4 +1,4 @@
-# JSENet
+# JSENet: Joint Semantic Segmentation and Edge Detection Network for 3D Point Clouds
 ## Introduction
 Implementation of ECCV2020 paper - JSENet: Joint Semantic Segmentation and Edge Detection Network for 3D Point Clouds ([arXiv](https://arxiv.org/abs/2007.06888)). If you find our work useful in your research, please consider citing:
 
