@@ -291,11 +291,11 @@ class ScannetDataset(Dataset):
                             continue
                         
                         # check radius neighbors (r = 0.02)
-                        inds = cloud_tree.query_radius(sub_points[i].reshape[1, -1], 0.02)
+                        inds = cloud_tree.query_radius(sub_points[i].reshape(1, -1), 0.02)
                         
                         # flag indicating if this point is boundary
                         flag = 0
-                        for j in inds:
+                        for j in inds[0]:
                             
                             # Pass all unclassified points
                             if sub_labels[j] == 0:
