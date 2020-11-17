@@ -244,7 +244,7 @@ class S3DISDataset(Dataset):
                 # flag indicating if this point is boundary
                 flag = 0
 
-                for j in inds:
+                for j in inds[0]:
 
                     # when class change is found
                     if (cloud_classes[j][0] != center_class):
