@@ -3,10 +3,11 @@
 Implementation of ECCV2020 paper - JSENet: Joint Semantic Segmentation and Edge Detection Network for 3D Point Clouds ([arXiv](https://arxiv.org/abs/2007.06888)). If you find our work useful in your research, please consider citing:
 
 ```
-@article{hu2020jsenet,
+@inproceedings{hu2020jsenet,
   title={JSENet: Joint Semantic Segmentation and Edge Detection Network for 3D Point Clouds},
   author={Hu, Zeyu and Zhen, Mingmin and Bai, Xuyang and Fu, Hongbo and Tai, Chiew-lan},
-  journal={arXiv preprint arXiv:2007.06888},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={222--239},
   year={2020}
 }
 ```
